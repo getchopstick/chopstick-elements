@@ -6,7 +6,7 @@
     "elements.typography.scss",
     "elements.images.scss",
     "elements.forms.scss",
-    "elements.tables.scss",
+    "elements.tables.scss"
   ],
   "dependencies": {
     "chopstick-settings": "0.7.0",
@@ -28,6 +28,7 @@
   ],
   "licence": "MIT",
   "ignore": [
+    ".git",
     ".editorconfig",
     "package.json",
     "npmignore"

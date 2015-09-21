@@ -1,0 +1,35 @@
+{
+  "name": "chopstick-elements",
+  "description": "Chopstick elements layer",
+  "main": [
+    "elements.page.scss",
+    "elements.typography.scss",
+    "elements.images.scss",
+    "elements.forms.scss",
+    "elements.tables.scss",
+  ],
+  "dependencies": {
+    "chopstick-settings": "0.7.0",
+    "chopstick-tools": "0.7.0"
+  },
+  "keywords": [
+    "front-end",
+    "elements",
+    "css",
+    "scss",
+    "framework",
+    "ITCSS"
+  ],
+  "authors": [
+    "Wijs <info@wijs.be> (http://wijs.be)"
+  ],
+  "homepage": [
+    "http://getchopstick.com/"
+  ],
+  "licence": "MIT",
+  "ignore": [
+    ".editorconfig",
+    "package.json",
+    "npmignore"
+  ]
+}

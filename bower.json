@@ -1,13 +1,6 @@
 {
   "name": "chopstick-elements",
   "description": "Chopstick elements layer",
-  "main": [
-    "elements.page.scss",
-    "elements.typography.scss",
-    "elements.images.scss",
-    "elements.forms.scss",
-    "elements.tables.scss"
-  ],
   "dependencies": {
     "chopstick-settings": "0.7.0",
     "chopstick-tools": "0.7.0"
@@ -30,7 +23,7 @@
   "ignore": [
     ".git",
     ".editorconfig",
-    "package.json",
-    "npmignore"
+    ".npmignore",
+    "package.json"
   ]
 }

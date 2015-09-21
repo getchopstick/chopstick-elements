@@ -11,13 +11,13 @@
   ],
   "version": "0.7.0",
   "author": {
-    "name" : "Wijs",
-    "email" : "info@wijs.be",
-    "url" : "http://wijs.be/"
+    "name": "Wijs",
+    "email": "info@wijs.be",
+    "url": "http://wijs.be/"
   },
   "homepage": "http://getchopstick.com/",
   "bugs": {
-      "url" : "https://github.com/getchopstick/chopstick-elements/issues",
+      "url": "https://github.com/getchopstick/chopstick-elements/issues",
   },
   "license": "MIT",
   "repository": {

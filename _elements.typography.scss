@@ -156,6 +156,10 @@ blockquote {
     font-style: $blockquote-font-style;
     @include text-dimensions($blockquote-font-size,$blockquote-line-height);
     @include margin-bottom($blockquote-margin-bottom);
+    > p {
+        font-size: inherit;
+        line-height: inherit;
+    }
 }
 
 small {

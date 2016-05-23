@@ -58,22 +58,14 @@ textarea {
 
 // Placeholders
 
+[placeholder],
+:-ms-input-placeholder,
+::-moz-placeholder,
 ::-webkit-input-placeholder {
     font-family: $placeholder-font-family;
     font-style: $placeholder-font-style;
     color: $placeholder-color;
-}
-
-::-moz-placeholder {
-    font-family: $placeholder-font-family;
-    font-style: $placeholder-font-style;
-    color: $placeholder-color;
-}
-
-:-ms-input-placeholder {
-    font-family: $placeholder-font-family;
-    font-style: $placeholder-font-style;
-    color: $placeholder-color;
+    text-overflow: ellipsis;
 }
 
 // Firefox inner border fix

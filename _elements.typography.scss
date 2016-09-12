@@ -67,7 +67,6 @@ $horizontal-rule-margin-bottom : $alpha-leading !default;
 
 $link-transition               : none !default;
 
-$link-font-weight              : $beta-font-weight !default;
 $link-decoration               : none !default;
 $link-decoration--hover        : underline !default;
 
@@ -178,7 +177,6 @@ hr {
 // Links
 
 a {
-    font-weight: $link-font-weight;
     text-decoration: $link-decoration;
     color: $link-color;
     transition: $link-transition;
